@@ -1,0 +1,2 @@
+# HkAfnetworkRequest
+创建新的afnetworkrequest方便调用
