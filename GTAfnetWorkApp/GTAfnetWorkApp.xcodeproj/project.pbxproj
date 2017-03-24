@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4984FCF474A51A176FEDB7 /* libPods-GTAfnetWorkApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4C91B246F729A823C3AEE93 /* libPods-GTAfnetWorkApp.a */; };
+		F10BFD261E55EE7900C522FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10BFD251E55EE7900C522FF /* main.m */; };
+		F10BFD291E55EE7900C522FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10BFD281E55EE7900C522FF /* AppDelegate.m */; };
+		F10BFD2C1E55EE7900C522FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10BFD2B1E55EE7900C522FF /* ViewController.m */; };
+		F10BFD2F1E55EE7900C522FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10BFD2D1E55EE7900C522FF /* Main.storyboard */; };
+		F10BFD311E55EE7900C522FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10BFD301E55EE7900C522FF /* Assets.xcassets */; };
+		F10BFD341E55EE7900C522FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10BFD321E55EE7900C522FF /* LaunchScreen.storyboard */; };
+		F10BFD3F1E55EE7900C522FF /* GTAfnetWorkAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F10BFD3E1E55EE7900C522FF /* GTAfnetWorkAppTests.m */; };
+		F10BFD4A1E55EE7900C522FF /* GTAfnetWorkAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F10BFD491E55EE7900C522FF /* GTAfnetWorkAppUITests.m */; };
+		F10BFD5B1E55F4FD00C522FF /* GTBaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = F10BFD5A1E55F4FD00C522FF /* GTBaseService.m */; };
+		F126FE2B1E569AB800187E02 /* GTNetWorkConfigInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F126FE2A1E569AB800187E02 /* GTNetWorkConfigInfo.m */; };
+		F126FE341E569EE600187E02 /* GTNetWorkRequestGeneretor.m in Sources */ = {isa = PBXBuildFile; fileRef = F126FE331E569EE600187E02 /* GTNetWorkRequestGeneretor.m */; };
+		F17717C31E8389F60012B278 /* GTUploadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F17717C21E8389F60012B278 /* GTUploadModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10BFD3B1E55EE7900C522FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10BFD191E55EE7900C522FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10BFD201E55EE7900C522FF;
+			remoteInfo = GTAfnetWorkApp;
+		};
+		F10BFD461E55EE7900C522FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10BFD191E55EE7900C522FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10BFD201E55EE7900C522FF;
+			remoteInfo = GTAfnetWorkApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BB07A35614D4F21F22F562D /* Pods-GTAfnetWorkApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTAfnetWorkApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTAfnetWorkApp/Pods-GTAfnetWorkApp.release.xcconfig"; sourceTree = "<group>"; };
+		96CE519C76E5AD3923AC3593 /* Pods-GTAfnetWorkApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTAfnetWorkApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTAfnetWorkApp/Pods-GTAfnetWorkApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C4C91B246F729A823C3AEE93 /* libPods-GTAfnetWorkApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTAfnetWorkApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10BFD211E55EE7900C522FF /* GTAfnetWorkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTAfnetWorkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10BFD251E55EE7900C522FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F10BFD271E55EE7900C522FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F10BFD281E55EE7900C522FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F10BFD2A1E55EE7900C522FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F10BFD2B1E55EE7900C522FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F10BFD2E1E55EE7900C522FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F10BFD301E55EE7900C522FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10BFD331E55EE7900C522FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F10BFD351E55EE7900C522FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10BFD3A1E55EE7900C522FF /* GTAfnetWorkAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTAfnetWorkAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10BFD3E1E55EE7900C522FF /* GTAfnetWorkAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAfnetWorkAppTests.m; sourceTree = "<group>"; };
+		F10BFD401E55EE7900C522FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10BFD451E55EE7900C522FF /* GTAfnetWorkAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTAfnetWorkAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10BFD491E55EE7900C522FF /* GTAfnetWorkAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAfnetWorkAppUITests.m; sourceTree = "<group>"; };
+		F10BFD4B1E55EE7900C522FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10BFD591E55F4FD00C522FF /* GTBaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTBaseService.h; sourceTree = "<group>"; };
+		F10BFD5A1E55F4FD00C522FF /* GTBaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTBaseService.m; sourceTree = "<group>"; };
+		F126FE291E569AB800187E02 /* GTNetWorkConfigInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNetWorkConfigInfo.h; sourceTree = "<group>"; };
+		F126FE2A1E569AB800187E02 /* GTNetWorkConfigInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNetWorkConfigInfo.m; sourceTree = "<group>"; };
+		F126FE321E569EE600187E02 /* GTNetWorkRequestGeneretor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTNetWorkRequestGeneretor.h; sourceTree = "<group>"; };
+		F126FE331E569EE600187E02 /* GTNetWorkRequestGeneretor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTNetWorkRequestGeneretor.m; sourceTree = "<group>"; };
+		F17717C11E8389F60012B278 /* GTUploadModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTUploadModel.h; sourceTree = "<group>"; };
+		F17717C21E8389F60012B278 /* GTUploadModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTUploadModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10BFD1E1E55EE7900C522FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4984FCF474A51A176FEDB7 /* libPods-GTAfnetWorkApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10BFD371E55EE7900C522FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10BFD421E55EE7900C522FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCC0998E6BC47A414C4ACE8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4C91B246F729A823C3AEE93 /* libPods-GTAfnetWorkApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5C91F933343DB8580DA83CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96CE519C76E5AD3923AC3593 /* Pods-GTAfnetWorkApp.debug.xcconfig */,
+				7BB07A35614D4F21F22F562D /* Pods-GTAfnetWorkApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F10BFD181E55EE7900C522FF = {
+			isa = PBXGroup;
+			children = (
+				F10BFD231E55EE7900C522FF /* GTAfnetWorkApp */,
+				F10BFD3D1E55EE7900C522FF /* GTAfnetWorkAppTests */,
+				F10BFD481E55EE7900C522FF /* GTAfnetWorkAppUITests */,
+				F10BFD221E55EE7900C522FF /* Products */,
+				C5C91F933343DB8580DA83CC /* Pods */,
+				BCC0998E6BC47A414C4ACE8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F10BFD221E55EE7900C522FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD211E55EE7900C522FF /* GTAfnetWorkApp.app */,
+				F10BFD3A1E55EE7900C522FF /* GTAfnetWorkAppTests.xctest */,
+				F10BFD451E55EE7900C522FF /* GTAfnetWorkAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10BFD231E55EE7900C522FF /* GTAfnetWorkApp */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD271E55EE7900C522FF /* AppDelegate.h */,
+				F10BFD281E55EE7900C522FF /* AppDelegate.m */,
+				F10BFD2A1E55EE7900C522FF /* ViewController.h */,
+				F10BFD2B1E55EE7900C522FF /* ViewController.m */,
+				F10BFD2D1E55EE7900C522FF /* Main.storyboard */,
+				F126FE351E56D46900187E02 /* GTSDK */,
+				F10BFD571E55F4DA00C522FF /* baseNetWork */,
+				F10BFD301E55EE7900C522FF /* Assets.xcassets */,
+				F10BFD321E55EE7900C522FF /* LaunchScreen.storyboard */,
+				F10BFD351E55EE7900C522FF /* Info.plist */,
+				F10BFD241E55EE7900C522FF /* Supporting Files */,
+			);
+			path = GTAfnetWorkApp;
+			sourceTree = "<group>";
+		};
+		F10BFD241E55EE7900C522FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD251E55EE7900C522FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F10BFD3D1E55EE7900C522FF /* GTAfnetWorkAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD3E1E55EE7900C522FF /* GTAfnetWorkAppTests.m */,
+				F10BFD401E55EE7900C522FF /* Info.plist */,
+			);
+			path = GTAfnetWorkAppTests;
+			sourceTree = "<group>";
+		};
+		F10BFD481E55EE7900C522FF /* GTAfnetWorkAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD491E55EE7900C522FF /* GTAfnetWorkAppUITests.m */,
+				F10BFD4B1E55EE7900C522FF /* Info.plist */,
+			);
+			path = GTAfnetWorkAppUITests;
+			sourceTree = "<group>";
+		};
+		F10BFD571E55F4DA00C522FF /* baseNetWork */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD581E55F4DA00C522FF /* service */,
+				F126FE291E569AB800187E02 /* GTNetWorkConfigInfo.h */,
+				F126FE2A1E569AB800187E02 /* GTNetWorkConfigInfo.m */,
+				F17717C11E8389F60012B278 /* GTUploadModel.h */,
+				F17717C21E8389F60012B278 /* GTUploadModel.m */,
+				F126FE321E569EE600187E02 /* GTNetWorkRequestGeneretor.h */,
+				F126FE331E569EE600187E02 /* GTNetWorkRequestGeneretor.m */,
+			);
+			name = baseNetWork;
+			path = netWork;
+			sourceTree = "<group>";
+		};
+		F10BFD581E55F4DA00C522FF /* service */ = {
+			isa = PBXGroup;
+			children = (
+				F10BFD591E55F4FD00C522FF /* GTBaseService.h */,
+				F10BFD5A1E55F4FD00C522FF /* GTBaseService.m */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		F126FE351E56D46900187E02 /* GTSDK */ = {
+			isa = PBXGroup;
+			children = (
+				F126FE361E56D46900187E02 /* category */,
+				F126FE371E56D46900187E02 /* tool */,
+				F126FE381E56D46900187E02 /* UI */,
+			);
+			path = GTSDK;
+			sourceTree = "<group>";
+		};
+		F126FE361E56D46900187E02 /* category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		F126FE371E56D46900187E02 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+		F126FE381E56D46900187E02 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10BFD201E55EE7900C522FF /* GTAfnetWorkApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10BFD4E1E55EE7900C522FF /* Build configuration list for PBXNativeTarget "GTAfnetWorkApp" */;
+			buildPhases = (
+				96AE7233C1508FCE814B1494 /* Check Pods Manifest.lock */,
+				F10BFD1D1E55EE7900C522FF /* Sources */,
+				F10BFD1E1E55EE7900C522FF /* Frameworks */,
+				F10BFD1F1E55EE7900C522FF /* Resources */,
+				A21FE7A3565FED452E4CB318 /* Embed Pods Frameworks */,
+				31425BFB059E46AC226DBEF5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTAfnetWorkApp;
+			productName = GTAfnetWorkApp;
+			productReference = F10BFD211E55EE7900C522FF /* GTAfnetWorkApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10BFD391E55EE7900C522FF /* GTAfnetWorkAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10BFD511E55EE7900C522FF /* Build configuration list for PBXNativeTarget "GTAfnetWorkAppTests" */;
+			buildPhases = (
+				F10BFD361E55EE7900C522FF /* Sources */,
+				F10BFD371E55EE7900C522FF /* Frameworks */,
+				F10BFD381E55EE7900C522FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10BFD3C1E55EE7900C522FF /* PBXTargetDependency */,
+			);
+			name = GTAfnetWorkAppTests;
+			productName = GTAfnetWorkAppTests;
+			productReference = F10BFD3A1E55EE7900C522FF /* GTAfnetWorkAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F10BFD441E55EE7900C522FF /* GTAfnetWorkAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10BFD541E55EE7900C522FF /* Build configuration list for PBXNativeTarget "GTAfnetWorkAppUITests" */;
+			buildPhases = (
+				F10BFD411E55EE7900C522FF /* Sources */,
+				F10BFD421E55EE7900C522FF /* Frameworks */,
+				F10BFD431E55EE7900C522FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10BFD471E55EE7900C522FF /* PBXTargetDependency */,
+			);
+			name = GTAfnetWorkAppUITests;
+			productName = GTAfnetWorkAppUITests;
+			productReference = F10BFD451E55EE7900C522FF /* GTAfnetWorkAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10BFD191E55EE7900C522FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = TSAPP;
+				TargetAttributes = {
+					F10BFD201E55EE7900C522FF = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Automatic;
+					};
+					F10BFD391E55EE7900C522FF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F10BFD201E55EE7900C522FF;
+					};
+					F10BFD441E55EE7900C522FF = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F10BFD201E55EE7900C522FF;
+					};
+				};
+			};
+			buildConfigurationList = F10BFD1C1E55EE7900C522FF /* Build configuration list for PBXProject "GTAfnetWorkApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10BFD181E55EE7900C522FF;
+			productRefGroup = F10BFD221E55EE7900C522FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10BFD201E55EE7900C522FF /* GTAfnetWorkApp */,
+				F10BFD391E55EE7900C522FF /* GTAfnetWorkAppTests */,
+				F10BFD441E55EE7900C522FF /* GTAfnetWorkAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10BFD1F1E55EE7900C522FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10BFD341E55EE7900C522FF /* LaunchScreen.storyboard in Resources */,
+				F10BFD311E55EE7900C522FF /* Assets.xcassets in Resources */,
+				F10BFD2F1E55EE7900C522FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10BFD381E55EE7900C522FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10BFD431E55EE7900C522FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31425BFB059E46AC226DBEF5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTAfnetWorkApp/Pods-GTAfnetWorkApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96AE7233C1508FCE814B1494 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A21FE7A3565FED452E4CB318 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTAfnetWorkApp/Pods-GTAfnetWorkApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10BFD1D1E55EE7900C522FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F126FE2B1E569AB800187E02 /* GTNetWorkConfigInfo.m in Sources */,
+				F10BFD2C1E55EE7900C522FF /* ViewController.m in Sources */,
+				F17717C31E8389F60012B278 /* GTUploadModel.m in Sources */,
+				F10BFD5B1E55F4FD00C522FF /* GTBaseService.m in Sources */,
+				F10BFD291E55EE7900C522FF /* AppDelegate.m in Sources */,
+				F10BFD261E55EE7900C522FF /* main.m in Sources */,
+				F126FE341E569EE600187E02 /* GTNetWorkRequestGeneretor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10BFD361E55EE7900C522FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10BFD3F1E55EE7900C522FF /* GTAfnetWorkAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F10BFD411E55EE7900C522FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10BFD4A1E55EE7900C522FF /* GTAfnetWorkAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10BFD3C1E55EE7900C522FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10BFD201E55EE7900C522FF /* GTAfnetWorkApp */;
+			targetProxy = F10BFD3B1E55EE7900C522FF /* PBXContainerItemProxy */;
+		};
+		F10BFD471E55EE7900C522FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10BFD201E55EE7900C522FF /* GTAfnetWorkApp */;
+			targetProxy = F10BFD461E55EE7900C522FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F10BFD2D1E55EE7900C522FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10BFD2E1E55EE7900C522FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F10BFD321E55EE7900C522FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10BFD331E55EE7900C522FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10BFD4C1E55EE7900C522FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F10BFD4D1E55EE7900C522FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10BFD4F1E55EE7900C522FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CE519C76E5AD3923AC3593 /* Pods-GTAfnetWorkApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = GTAfnetWorkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.GTAfnetWorkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F10BFD501E55EE7900C522FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB07A35614D4F21F22F562D /* Pods-GTAfnetWorkApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = GTAfnetWorkApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.GTAfnetWorkApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F10BFD521E55EE7900C522FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTAfnetWorkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.GTAfnetWorkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTAfnetWorkApp.app/GTAfnetWorkApp";
+			};
+			name = Debug;
+		};
+		F10BFD531E55EE7900C522FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GTAfnetWorkAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.GTAfnetWorkAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GTAfnetWorkApp.app/GTAfnetWorkApp";
+			};
+			name = Release;
+		};
+		F10BFD551E55EE7900C522FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTAfnetWorkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.GTAfnetWorkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTAfnetWorkApp;
+			};
+			name = Debug;
+		};
+		F10BFD561E55EE7900C522FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GTAfnetWorkAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.GTAfnetWorkAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GTAfnetWorkApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10BFD1C1E55EE7900C522FF /* Build configuration list for PBXProject "GTAfnetWorkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10BFD4C1E55EE7900C522FF /* Debug */,
+				F10BFD4D1E55EE7900C522FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10BFD4E1E55EE7900C522FF /* Build configuration list for PBXNativeTarget "GTAfnetWorkApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10BFD4F1E55EE7900C522FF /* Debug */,
+				F10BFD501E55EE7900C522FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10BFD511E55EE7900C522FF /* Build configuration list for PBXNativeTarget "GTAfnetWorkAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10BFD521E55EE7900C522FF /* Debug */,
+				F10BFD531E55EE7900C522FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10BFD541E55EE7900C522FF /* Build configuration list for PBXNativeTarget "GTAfnetWorkAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10BFD551E55EE7900C522FF /* Debug */,
+				F10BFD561E55EE7900C522FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10BFD191E55EE7900C522FF /* Project object */;
+}
